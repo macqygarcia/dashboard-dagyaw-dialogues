@@ -10,9 +10,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="h-screen w-full grid place-items-center">
-        <h1 className="text-7xl text-blue-700 font-bold">
-          to God be the glory!
+      <main className="grid w-full h-screen place-items-center">
+        <h1 className="font-bold text-blue-700 text-7xl">
+          to God be the glory, honor and praise!
         </h1>
       </main>
     </div>
