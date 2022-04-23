@@ -1,7 +1,6 @@
 import Head from 'next/head'
-import Table from '../components/Table'
 
-export default function Home() {
+export default function Dashboard() {
   return (
     <div>
       <Head>
@@ -11,7 +10,9 @@ export default function Home() {
       </Head>
 
       <main className="grid w-full h-screen place-items-center">
-        <Table />
+        <h1 className="font-bold text-blue-700 text-7xl">
+          to God be the glory, honor and praise!
+        </h1>
       </main>
     </div>
   )
