@@ -1,12 +1,13 @@
 import DocHeader from '../components/DocHeader'
-import Register from './register'
+import Form from '../components/Forms'
 
-export default function Home() {
+export default function Login() {
   return (
     <div>
-      <DocHeader title="Dashboard - Dagyaw Dialogues" />
+      <DocHeader title="Welcome to Dagyaw Dialogues Dashboard" />
+
       <main className="grid w-full h-screen place-items-center">
-        <Register />
+        <Form />
       </main>
     </div>
   )
